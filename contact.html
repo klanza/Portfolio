@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>
+        Kenneth Lanza - Portfolio
+    </title>
+</head>
+
+<body>
+    <!-- header goes here at top -->
+    <header class="heading">
+        <!-- container to style total heading -->
+        <div id="headinglinks">
+            <!-- Name in div to style element -->
+            <div id="name">
+                Kenneth Lanza
+            </div>
+            <!-- Navigation links to move around portfolio -->
+            <nav id="navbar">
+                <a href="index.html" id="index">About</a>
+                <a href="portfolio.html" id="portfolio">Portfolio</a>
+                <a href="contact.html" id="contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Portfolio section -->
+    <section class="container">
+        <section class="main">
+            <!-- Contact section -->
+            <h1>
+                Contact
+            </h1>
+            <!--Form submission-->
+            <form id="contactsubmission">
+                <!--Name, email and message boxes in list-->
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="John Smith">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="example@gmail.com">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea name="message"></textarea>
+                    </li>
+                </ul>
+                <!--Submit button (class to style)-->
+                <input type="submit" value="Submit">
+                </ul>
+            </form>
+        </section>
+        <section class="sidebar">
+            <!--Heading for sidebar-->
+            <h2>
+                Connect with Me
+            </h2>
+            <!--Icons with links to outside pages-->
+            <nav id="navimages">
+                <a href="https://github.com/klanza" target="blank">
+                    <img src="assets/images/github.svg" alt="GitHub Profile" class="github">
+                </a>
+                <a href="https://www.linkedin.com/in/kennethlanza/" target="blank">
+                    <img src="assets/images/linkedin.svg" alt="LinkedIn Profile" class="linkedin">
+                </a>
+                <a href="https://stackoverflow.com/users/8782959/kenneth-lanza" target="blank">
+                    <img src="assets/images/stackoverflow.svg" alt="Stack Overflow" class="stackover">
+                </a>
+                <!--Improperly sized image, corrected in CSS - kind of janky -->
+                <!--<a href="https://stackoverflow.com/users/8782959/kenneth-lanza" target="blank">
+                    <img src="assets/images/stackoverflow64.png" alt="Stack Overflow Profile" class="stackover">
+                </a>-->
+            </nav>
+        </section>
+    </section>
+    <!-- Footer with copyright symbol and copyright info-->
+    <footer>
+        <div class="footing">
+            &copy; Copyright 2017 Kenneth Lanza
+        </div>
+    </footer>
+</body>
+
+</html>
